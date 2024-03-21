@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.base {
+  height: 100%;
+  width: 100%;
+  background-color: #EF476F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.base .box {
+  height: 50%;
+  width: 45%;
+  background-color: #FFD166;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.base .box:hover {
+  height: 53%;
+  width: 48%;
+  box-shadow: 3px 3px #fa023c;
+}
+.base .box .heading {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+  display: block;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+.base .box #name {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 16px;
+  border-radius: 7px;
+  border: 5px solid #EF476F;
+}
+.base .box #name::-moz-placeholder {
+  font-size: 10px;
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.base .box #name::placeholder {
+  font-size: 10px;
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.base .box #name:hover {
+  padding: 13px;
+  border-radius: 5px;
+}
+.base .box #sub {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 7px;
+  background-color: #EF476F;
+  color: #fff;
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.base .box #sub a {
+  text-decoration: none;
+  color: #fff;
+}
+.base .box #sub:hover {
+  padding: 13px;
+  border-radius: 4px;
+  background-color: #242325;
+  color: #fff;
+  box-shadow: 5px 5px #EF476F;
+}
+.base .box #sub:hover a {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  color: #fff;
+}
+
+#mainbase {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  height: 100%;
+  width: 100%;
+  background-color: #EF476F;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#mainbase .wel {
+  display: block;
+  padding: 20px;
+}
+#mainbase .wel #name {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+}
+#mainbase label {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#mainbase label h2 {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+  color: #FFD166;
+  font-size: 45px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#mainbase .detail {
+  margin-bottom: 50px;
+}
+#mainbase .detail p {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px;
+}
+#mainbase #num {
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 5px solid #FFD166;
+}
+#mainbase #guess {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  background-color: #FFD166;
+}
+#mainbase .resultpara {
+  text-align: center;
+  width: 100%;
+}
+#mainbase .resultpara p {
+  font-size: bold;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#mainbase .resultpara #newgame {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+  .base .box {
+    width: 100%;
+    height: 80%;
+    border-radius: 0%;
+  }
+  .base .box:hover {
+    height: 80%;
+    width: 100%;
+  }
+  .base .box .heading {
+    font-size: 23px;
+    margin-bottom: 25px;
+    padding: 0px;
+  }
+  .base .box #name {
+    padding: 13px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+  }
+  .base .box #sub {
+    font-size: 13px;
+    padding: 5px;
+  }
+  #mainbase .wel {
+    font-size: 25px;
+    padding: 5px;
+  }
+  #mainbase label {
+    margin-bottom: 25px;
+  }
+  #mainbase label h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  #mainbase .detail {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #mainbase .detail p {
+    font-size: 15px;
+    padding: 2px;
+    font-weight: bolder;
+  }
+  #mainbase #num {
+    padding: 5px;
+    margin-bottom: 40px;
+  }
+  #mainbase #guess {
+    padding: 7px;
+  }
+  #mainbase .resultpara p {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+}/*# sourceMappingURL=style.css.map */

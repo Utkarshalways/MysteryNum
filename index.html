@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Honk&family=Protest+Guerrilla&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <title>Guess the Game</title>
+    <link rel="stylesheet" href="sass/style.css">
+</head>
+
+<body>
+    <div class="base">
+
+        <div class="box">
+
+            <form action="" id="Forname">
+                <label for="name">
+                    <h1 class="heading">
+                        Please Enter Your Name : --
+                    </h1>
+                    <input type="text" id="name" placeholder="Eg:- Gamer_Og">
+                </label>
+
+                <button type="submit" id="sub"><a href="#mainbase">submit</a> </button>
+                <!-- <a href="_parent">click here</a> -->
+            </form>
+        </div>
+    </div>
+
+
+    <div id="mainbase">
+
+        <h1 class="wel">
+
+        </h1>
+
+
+        <label for="num">
+        <h2>
+            Guess the correct Number
+        </h2>
+        </label>
+        <div class="detail">
+
+            <p >Try to guess the number between 1 to 100</p>
+            <p >You have only 10 turns to find the number</p>
+        </div>
+        <form action="">
+            <input type="number" id="num">
+            <button type="submit" id="guess">Guess</button>
+        </form>
+
+        <div class="resultpara">
+            <p>Previous Guess : -- <span id="prevguess"></span></p>
+            <p>Guess Remaining : -- <span id="guessrem">10</span></p>
+            <p class="loworhigh"></p>
+        </div>
+
+
+
+    </div>
+
+</body>
+<script src="script.js">
+</script>
+
+</html>
