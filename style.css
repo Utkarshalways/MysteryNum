@@ -181,23 +181,23 @@ html {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 475px) {
   .base .box {
     width: 100%;
     height: 80%;
     border-radius: 0%;
   }
   .base .box:hover {
-    height: 80%;
     width: 100%;
+      height: 80%;
   }
   .base .box .heading {
-    font-size: 23px;
+    font-size: 18px;
     margin-bottom: 25px;
     padding: 0px;
   }
   .base .box #name {
-    padding: 13px;
+    padding: 8px;
     border-radius: 5px;
     margin-bottom: 25px;
   }
