@@ -1,6 +1,7 @@
 # Introduction:
 
 Welcome to "MysteryNum," an immersive and thrilling number guessing game designed to challenge your intellect and intuition! Whether you're a master strategist or a casual gamer looking for a mental workout, MysteryNum offers an engaging experience for players of all levels. Prepare to embark on a journey of deduction, logic, and excitement as you attempt to crack the code and uncover the hidden number within a specified range. With its intuitive interface and captivating gameplay, MysteryNum promises hours of fun and excitement as you pit your wits against the game's cunning algorithms.
+Its Live on:- [Link](https://utkarshalways.github.io/MysteryNum/)
 
 ## Specifications:
 
